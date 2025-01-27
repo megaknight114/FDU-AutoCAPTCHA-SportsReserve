@@ -1,0 +1,8 @@
+pyautogui
+selenium
+opencv-python
+numpy
+scikit-learn
+Pillow
+torch
+torchvision
