@@ -40,10 +40,9 @@ Usage
 
 1. Complete the personalized setup in `main.py` and `config.py`. Detailed guidance is provided within the files.
    
-   > **Important:** If necessary,modify the unannotated sections carefully.  
-   > The following are the critical settings that should be updated:
+   > **Important:** If necessary, modify the unannotated sections carefully. The following are the critical settings that should be updated:
    
-   * **`main.py`**:
+   * **`main.py`:**
      * `username`
      * `password`
      * `target_campus`
@@ -51,9 +50,11 @@ Usage
      * `next_week`
      * `target_day`
      * `target_time_period`
-   * **`config.py`**:
+   * **`config.py`:**
      * `x_offset`
      * `y_offset`
+
+2. Run `main.py` to start the script.
 
 * * *
 
@@ -63,3 +64,5 @@ Contributing
 We welcome contributions from the community!  
 
 If you have suggestions for improvements, bug fixes, or new features, feel free to fork this repository and submit a pull request. Please ensure that your code is well-documented and tested before submission.
+
+
