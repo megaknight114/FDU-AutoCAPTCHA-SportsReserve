@@ -28,7 +28,7 @@ Installation
 
 ## Known Issues
 
-1. **CAPTCHA Click Bias**: Selenium may fail to click accurately on the CAPTCHA due to coordinate misalignment. If this occurs, use the `coordinate_detection.py` script to locate the top-left corner of the CAPTCHA and update the values in `config.py`.
+1. **CAPTCHA Click Bias**: Pyautogui may fail to click accurately on the CAPTCHA due to coordinate misalignment. If this occurs, use the `coordinate_detection.py` script to locate the top-left corner of the CAPTCHA and update the values in `config.py`.
 
 2. **Network Dependency**: The script's robustness is limited. Unexpected behavior may occur if the network connection is poor.
 
@@ -41,7 +41,6 @@ Usage
 1. Complete the personalized setup in `main.py` and `config.py`. Detailed guidance is provided within the files.
    
    > **Important:** If necessary,modify the unannotated sections carefully.  
-   > 
    > The following are the critical settings that should be updated:
    
    * **`main.py`**:
