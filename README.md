@@ -28,7 +28,7 @@ Installation
 
 ## Known Issues
 
-1. **CAPTCHA Click Bias**: Pyautogui may fail to click accurately on the CAPTCHA due to coordinate misalignment. If this occurs, use the `coordinate_detection.py` script to locate the top-left corner of the CAPTCHA and update the values in `config.py`.
+1. **CAPTCHA Click Bias**: Pyautogui may fail to click accurately on the CAPTCHA due to coordinate misalignment. If this occurs, use the `coordinate_detection.py` script to locate the top-left corner of the CAPTCHA image and update the values in `config.py`.
 
 2. **Network Dependency**: The script's robustness is limited. Unexpected behavior may occur if the network connection is poor.
 
@@ -53,6 +53,7 @@ Usage
    * **`config.py`:**
      * `x_offset`
      * `y_offset`
+     * `driver_location`
 
 2. Run `main.py` to start the script.
 
@@ -64,5 +65,3 @@ Contributing
 We welcome contributions from the community!  
 
 If you have suggestions for improvements, bug fixes, or new features, feel free to fork this repository and submit a pull request. Please ensure that your code is well-documented and tested before submission.
-
-

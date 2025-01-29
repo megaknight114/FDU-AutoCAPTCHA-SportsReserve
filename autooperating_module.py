@@ -14,7 +14,7 @@ from config import *
 options = webdriver.ChromeOptions()
 options.add_argument("--force-device-scale-factor=1")
 options.add_argument("--high-dpi-support=1")
-wd = webdriver.Chrome(service=Service(r'C:\chromedriver.exe'), options=options)
+wd = webdriver.Chrome(service=Service(config.driver_location), options=options)
 link = "https://elife.fudan.edu.cn/public/front/myServices.htm?id=2c9c486e4f821a19014f82381feb0001"
 def retry_click(location, location_before, retries=config.retries,before=1,interval=config.interval):
     attempt = 0
